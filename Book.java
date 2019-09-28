@@ -5,7 +5,8 @@ class Book
 
 	public void setBookId()
 	{
-		this.id=bookId;
+		this.id=bookId
+		System.out.println("Book id is set");
 	}
 	
 	public int getBookId(int bookId)
